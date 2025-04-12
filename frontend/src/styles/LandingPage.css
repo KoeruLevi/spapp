@@ -73,6 +73,8 @@
   border-radius: 10px;
   font-size: 1.1rem;
   line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
