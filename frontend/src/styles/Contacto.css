@@ -1,0 +1,46 @@
+.contact-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 60px 40px;
+    margin: 100px auto;
+    border-radius: 20px;
+    max-width: 700px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* elegante efecto difuminado */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  }
+
+  .contact-page {
+    background-image: url("https://raw.github.com/KoeruLevi/spapp/b2c993fcc90517b644dc827643cdc562ab4fdb42/assets/ELVIS%20SEBASTIAN%20PRESLEY%2035.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 100px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: "Georgia", serif;
+    letter-spacing: 1px;
+  }
+  
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  .contact-info a {
+    color: #fff;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #ccc;
+  }
